@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "511211315770",
+    "firebase_url": "https://teatyms-f6613-default-rtdb.firebaseio.com",
+    "project_id": "teatyms-f6613",
+    "storage_bucket": "teatyms-f6613.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:511211315770:android:f59f5253a0c4832c2b4b03",
+        "android_client_info": {
+          "package_name": "com.buddies.tea"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "511211315770-l915ani3eqainn7eal0en5rqsk3el3dd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBf66iXbxwf71YEumilZKJpuw8SA0z21To"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "511211315770-l915ani3eqainn7eal0en5rqsk3el3dd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:511211315770:android:1bee7f17c54d52f92b4b03",
+        "android_client_info": {
+          "package_name": "com.buddies.teatymsclient"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "511211315770-l915ani3eqainn7eal0en5rqsk3el3dd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBf66iXbxwf71YEumilZKJpuw8SA0z21To"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "511211315770-l915ani3eqainn7eal0en5rqsk3el3dd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

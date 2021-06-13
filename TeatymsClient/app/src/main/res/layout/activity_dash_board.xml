@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DashBoardActivity">
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/postLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/pTitleEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/editextstyle"
+            android:hint="Enter title"
+            android:padding="10dp"
+            android:singleLine="true" />
+
+        <EditText
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/editextstyle"
+            android:hint="Enter Image Url"
+            android:padding="10dp"
+            android:singleLine="true" />
+
+
+
+        <EditText
+            android:id="@+id/source"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/editextstyle"
+            android:hint="Enter Source"
+            android:padding="10dp"
+            android:singleLine="true" />
+
+        <EditText
+            android:id="@+id/pDescriptionEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/editextstyle"
+            android:gravity="start"
+            android:hint="Enter Description"
+            android:inputType="textMultiLine|textCapSentences"
+            android:minHeight="120dp"
+            android:padding="10dp"
+            android:singleLine="true" />
+
+
+        <EditText
+            android:id="@+id/pLink"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/editextstyle"
+            android:hint="Enter Link. If no link enter>>NO"
+            android:padding="10dp"
+            android:singleLine="true" />
+
+
+
+
+        <Button
+            android:id="@+id/pUpload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:text="Upload" />
+
+    </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/News"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Foreign News" />
+
+                <RadioButton
+                    android:id="@+id/life"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Life Style" />
+                <RadioButton
+                    android:id="@+id/ent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Entertainment" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/tech"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Tech" />
+
+                <RadioButton
+                    android:id="@+id/food"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Sports" />
+
+                <RadioButton
+                    android:id="@+id/story"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Story" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/poli"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Politics" />
+
+                <RadioButton
+                    android:id="@+id/bus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Business" />
+
+                <RadioButton
+                    android:id="@+id/edu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Education" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/Trending"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Trending" />
+
+                <RadioButton
+                    android:id="@+id/gen"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="General" />
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+    </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</RelativeLayout>

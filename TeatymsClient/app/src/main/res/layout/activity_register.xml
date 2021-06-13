@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RegisterActivity">
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/shape_rect01">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Register"
+            android:textStyle="bold"
+            android:textSize="28dp"
+            android:textColor="@android:color/white"/>
+
+    </RelativeLayout>
+
+
+
+    <com.blogspot.atifsoftwares.circularimageview.CircularImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/iconIv"
+        android:layout_centerHorizontal="true"
+        app:c_border="true"
+        app:c_border_color="@color/purple_200"
+        app:c_border_width="1dp"
+        android:layout_marginHorizontal="150dp"
+        android:id="@+id/shopping_profileIv"
+        android:src="@drawable/ic_person"/>
+
+    <EditText
+        android:id="@+id/shopnameedt"
+        android:layout_below="@+id/shopping_profileIv"
+        android:hint="Full Name"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:drawablePadding="5dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:inputType="textEmailAddress|textCapWords"
+        android:background="@drawable/shape_rect01"/>
+
+    <LinearLayout
+        android:paddingStart="10dp"
+        android:gravity="start"
+        android:id="@+id/gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/shopnameedt"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        tools:ignore="MissingConstraints">
+
+        <RadioGroup
+            android:id="@+id/RadioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Male" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Female" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/shopphoneedt"
+        android:layout_below="@+id/gender"
+        android:hint="Phone No:"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:drawablePadding="5dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:inputType="phone"
+        android:background="@drawable/shape_rect01"/>
+
+
+
+    <EditText
+        android:id="@+id/shopemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/shopaddresstotaledt"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/shape_rect01"
+        android:drawablePadding="5dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/shoppassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/shopemail"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="0dp"
+        android:background="@drawable/shape_rect01"
+        android:drawablePadding="5dp"
+        android:hint="Please enter password"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true" />
+
+    <Button
+        android:layout_marginHorizontal="100dp"
+        android:id="@+id/register_Shopedt"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/shoppassword"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="162dp"
+        android:text="Register"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="162dp" />
+
+    <TextView
+        android:paddingStart="100dp"
+        android:layout_marginHorizontal="100dp"
+        android:id="@+id/seller"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="ALREADY SIGNED!  LOGIN"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:paddingLeft="100dp" />
+
+
+</LinearLayout>

@@ -1,0 +1,2 @@
+rootProject.name = "TeatymsClient"
+include ':app'
